@@ -9,13 +9,8 @@ export default{
             type:'string'
         },
         {
-            name:'works',
-            title:'Works',
-            type:'array',
-        },
-        {
-            name:'name',
-            title:'name',
+            name:'role',
+            title:'Role',
             type:'string'
         },
         {
@@ -27,6 +22,11 @@ export default{
             name:'desc',
             title:'Desc',
             type:'string'
+        },
+        {
+            name: 'sequence',
+            title: 'Sequence',
+            type: 'number'
         }
     ]
 }
